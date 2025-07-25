@@ -10,8 +10,8 @@ namespace Services
 {
     public interface IUserService
     {
-         User? Login(string email, string password);
+        User? Login(string email, string password);
         bool Register(User user);
-
+        List<User> GetAllUsers();   
     }
 }

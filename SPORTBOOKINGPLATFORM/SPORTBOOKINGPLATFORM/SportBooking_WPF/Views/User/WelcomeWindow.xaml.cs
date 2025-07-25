@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using DataAccessLayer;
 using Repositories;
 using Services;
+using SportBooking_WPF.Views.Staff;
 using SportBooking_WPF.Views.User;
 
 namespace SportBooking_WPF.Views
@@ -52,9 +53,33 @@ namespace SportBooking_WPF.Views
 
                     // Chuyển sang trang chính của User
                     //UserMainWindow main = new UserMainWindow(user); // nếu có constructor truyền user
-                    var main = new UserMainWindow(user);
-                    main.Show();
-                    this.Close();
+                    string role = user.Role?.RoleName;
+                    MessageBox.Show($"Vai trò của bạn là: {role}", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                    switch (role)
+                    {
+                        case "Admin":
+                            //var adminMain = new AdminMainWindow(user);
+                            //adminMain.Show();
+                            break;
+                        case "Manager":
+                            //var managerMain = new ManagerMainWindow(user);
+                            //managerMain.Show();
+                            //this.Close();
+                            break;
+                        case "Staff":
+                            var staffMain = new StaffMainWindow();
+                            staffMain.Show();
+                            this.Close();
+                            break;
+                        case "User":
+                        default:
+                            // Mặc định là User
+                            var main = new UserMainWindow(user);
+                            main.Show();
+                            this.Close();
+                            break;
+                    }
+
                 }
                 else
                 {
@@ -66,12 +91,12 @@ namespace SportBooking_WPF.Views
                 MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            
+
         }
 
         private void Register_Click(object sender, RoutedEventArgs e)
         {
-            this.Hide(); 
+            this.Hide();
             RegisterWindow register = new RegisterWindow();
             register.ShowDialog();
             this.Show(); // Hiển thị lại cửa sổ đăng nhập sau khi đăng ký

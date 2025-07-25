@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessObjects;
 using DataAccessLayer;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repositories
 {
@@ -22,7 +23,7 @@ namespace Repositories
             _context.SaveChanges();
         }
 
-        public User GetUserByEmail(string email)
+        public User? GetUserByEmail(string email)
         {
            return  _context.Users.
                 FirstOrDefault(u => u.Email == email);
@@ -31,8 +32,16 @@ namespace Repositories
         public User? GetUserByEmailAndPassword(string email, string password)
         {
             return _context.Users
+                .Include(u => u.Role)
                 .FirstOrDefault(u => u.Email == email 
                 && u.PasswordHash == password);
+        }
+
+        public List<User> GetUsers()
+        {
+            return _context.Users
+                .Include(u => u.Role)
+                .ToList();
         }
     }
 }

@@ -19,7 +19,7 @@
         <!-- Logo và tên ứng dụng -->
         <StackPanel Grid.Row="0" HorizontalAlignment="Center" Margin="0,20,0,10">
             <Image Source="/Resources/football-field.png" Width="100" Height="100" />
-            <TextBlock Text="SPOTI" FontFamily="{StaticResource SportFont}" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" Foreground="#FBBA16" Margin="0,10,0,0" FontStyle="Italic"/> 
+            <TextBlock Text="SPOTI" FontFamily="{StaticResource SportFont}" HorizontalAlignment="Center" FontSize="36" FontWeight="Bold" Foreground="#FBBA16" Margin="0,10,0,0" FontStyle="Italic"/>
         </StackPanel>
 
         <!-- Form đăng nhập -->
@@ -35,7 +35,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Content="Email:" FontSize="14" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"/>
-                <TextBox x:Name="txtEmail" Text="Email" Grid.Column="1"
+                <TextBox x:Name="txtEmail" Text="baoduy@example.com" Grid.Column="1"
                  Foreground="Gray" Height="30"
                  GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
             </Grid>
@@ -50,6 +50,7 @@
                 <Label Content="Password:" FontSize="14" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"/>
                 <PasswordBox x:Name="txtPassword" Grid.Column="1" Height="30"
                      Tag="Password"
+                     Password="duy999"
                      GotFocus="PasswordBox_GotFocus" LostFocus="PasswordBox_LostFocus"/>
             </Grid>
 

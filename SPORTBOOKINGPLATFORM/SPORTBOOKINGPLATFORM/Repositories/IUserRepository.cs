@@ -11,6 +11,7 @@ namespace Repositories
     {
         User? GetUserByEmailAndPassword(string email, string password);
         void AddUser(User user);
-        User GetUserByEmail(string email);
+        User? GetUserByEmail(string email);
+        List<User> GetUsers();
     }
 }

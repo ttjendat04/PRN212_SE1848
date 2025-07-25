@@ -17,6 +17,11 @@ namespace Services
             _userRepository = userRepository;
         }
 
+        public List<User> GetAllUsers()
+        {
+            return _userRepository.GetUsers();
+        }
+
         public User? Login(string email, string password)
         {
             var user = _userRepository.GetUserByEmailAndPassword(email, password);
