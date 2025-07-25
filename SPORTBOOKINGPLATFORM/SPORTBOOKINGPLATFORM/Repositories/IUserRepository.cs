@@ -10,8 +10,11 @@ namespace Repositories
     public interface IUserRepository
     {
         User? GetUserByEmailAndPassword(string email, string password);
-        void AddUser(User user);
+        bool AddUser(User user);
+        bool UpdateUser(User user);
+        bool DeleteUser(int userid);
         User? GetUserByEmail(string email);
+        List<User> GetUserByKeyWord(string keyword);
         List<User> GetUsers();
     }
 }

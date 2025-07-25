@@ -23,20 +23,17 @@ namespace SportBooking_WPF.Views.Staff
         public StaffMainWindow()
         {
             InitializeComponent();
+            mainContent.Content = new StaffBookingView();
         }
 
         private void btnBooking_Click(object sender, RoutedEventArgs e)
         {
-            var bookingWindow = new StaffBookingWindow();
-            bookingWindow.Show();
-            this.Close();
+            mainContent.Content = new StaffBookingView();
         }
 
         private void btnUser_Click(object sender, RoutedEventArgs e)
         {
-            var userWindow = new UserManagementWindow();
-            userWindow.Show();
-            this.Close();
+           mainContent.Content = new UserManagementView();
         }
     }
 }

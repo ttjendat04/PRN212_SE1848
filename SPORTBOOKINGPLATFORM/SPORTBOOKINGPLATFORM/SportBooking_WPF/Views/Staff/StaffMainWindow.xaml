@@ -5,11 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SportBooking_WPF.Views.Staff"
         mc:Ignorable="d"
-        Title="StaffMainWindow" Height="450" Width="800">
-    <Grid>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
-            <Button Content="Booking" Name="btnBooking" Margin="10" Padding="10" Click="btnBooking_Click"/>
-            <Button Content="User" Name="btnUser" Margin="10" Padding="10" Click="btnUser_Click"  />
-        </StackPanel>
-    </Grid>
+        Title="Staff Dashboard"
+        Height="600" Width="900"
+        Background="#F4F4F4"
+        WindowStartupLocation="CenterScreen">
+
+    <DockPanel>
+        <!-- Top Menu Bar -->
+        <Border Background="#2E7D32" DockPanel.Dock="Top" Padding="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Booking"
+                        Name="btnBooking"
+                        Width="100"
+                        Margin="5"
+                        Padding="10"
+                        Click="btnBooking_Click"
+                        Background="#66BB6A"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Cursor="Hand"/>
+                <Button Content="User"
+                        Name="btnUser"
+                        Width="100"
+                        Margin="5"
+                        Padding="10"
+                        Click="btnUser_Click"
+                        Background="#66BB6A"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        BorderThickness="0"
+                        Cursor="Hand"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Main Content Area -->
+        <Border Background="White" Margin="10" CornerRadius="10" Padding="10">
+            <ContentControl x:Name="mainContent"/>
+        </Border>
+    </DockPanel>
 </Window>

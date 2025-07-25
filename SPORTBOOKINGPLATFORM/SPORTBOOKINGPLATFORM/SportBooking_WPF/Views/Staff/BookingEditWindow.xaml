@@ -42,16 +42,13 @@
 
         <!-- Customer -->
         <TextBlock Text="Customer:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0 5" Foreground="#006400"/>
-        <TextBox x:Name="txtCus" Grid.Row="1" Grid.Column="1" Margin="0 5" Background="WhiteSmoke" BorderBrush="#2E8B57"/>
-
-        <!-- Checkbox -->
-        <CheckBox x:Name="chkIsRegisteredUser"
-                  Grid.Row="2" Grid.Column="1"
-                  Margin="0 0 0 10"
-                  Content="Customer has an account"
-                  IsChecked="True"
-                  Foreground="#2E8B57"/>
-
+        <ComboBox x:Name="cbUser"
+          Grid.Row="1" Grid.Column="1" Margin="0 5"
+          DisplayMemberPath="FullName"
+          SelectedValuePath="UserId"
+          Background="WhiteSmoke"
+          BorderBrush="#2E8B57"/>
+        
         <!-- Court -->
         <TextBlock Text="Court:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="0 5" Foreground="#006400"/>
         <ComboBox x:Name="cbCourt" Grid.Row="3" Grid.Column="1" Margin="0 5" Background="WhiteSmoke" BorderBrush="#2E8B57"/>

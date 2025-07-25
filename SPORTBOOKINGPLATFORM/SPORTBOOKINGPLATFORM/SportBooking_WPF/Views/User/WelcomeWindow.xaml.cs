@@ -54,7 +54,6 @@ namespace SportBooking_WPF.Views
                     // Chuyển sang trang chính của User
                     //UserMainWindow main = new UserMainWindow(user); // nếu có constructor truyền user
                     string role = user.Role?.RoleName;
-                    MessageBox.Show($"Vai trò của bạn là: {role}", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
                     switch (role)
                     {
                         case "Admin":

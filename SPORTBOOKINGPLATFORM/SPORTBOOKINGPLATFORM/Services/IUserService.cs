@@ -13,5 +13,9 @@ namespace Services
         User? Login(string email, string password);
         bool Register(User user);
         List<User> GetAllUsers();   
+        bool UpdateUser(User user);
+        bool DeleteUser(int userId);
+        bool AddUser(User user);
+        List<User> GetUserByKeyWord(string keyword);
     }
 }

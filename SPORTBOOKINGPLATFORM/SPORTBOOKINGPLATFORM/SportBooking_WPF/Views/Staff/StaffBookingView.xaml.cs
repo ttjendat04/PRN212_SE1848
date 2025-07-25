@@ -1,7 +1,4 @@
-﻿using BusinessObjects;
-using DataAccessLayer;
-using Repositories;
-using Services;
+﻿using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,19 +11,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SportBooking_WPF.Views.Staff
 {
     /// <summary>
-    /// Interaction logic for StaffBookingWindow.xaml
+    /// Interaction logic for StaffBookingView.xaml
     /// </summary>
-    public partial class StaffBookingWindow : Window
+    public partial class StaffBookingView : UserControl
     {
-        // This class represents the booking management window for staff members.
         private readonly IBookingService _bookingService = new BookingService();
         BusinessObjects.Booking booking { get; set; }
-        public StaffBookingWindow()
+        public StaffBookingView()
         {
             InitializeComponent();
             LoadBookingData();
@@ -78,7 +75,7 @@ namespace SportBooking_WPF.Views.Staff
                 return;
             }
             var editBookingWindow = new BookingEditWindow(selectedBooking);
-            editBookingWindow.Owner= this;
+            editBookingWindow.Owner= Window.GetWindow(this);
             if (editBookingWindow.ShowDialog() == true)
             {
                 var updatedBooking = editBookingWindow.BookingResult;
@@ -100,7 +97,7 @@ namespace SportBooking_WPF.Views.Staff
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             var editBookingWindow = new BookingEditWindow();
-            editBookingWindow.Owner = this;
+            editBookingWindow.Owner = Window.GetWindow(this);
             if (editBookingWindow.ShowDialog() == true)
             {
                 var newBooking = editBookingWindow.BookingResult;

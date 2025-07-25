@@ -17,9 +17,24 @@ namespace Services
             _userRepository = userRepository;
         }
 
+        public bool AddUser(User user)
+        {
+            return _userRepository.AddUser(user);
+        }
+
+        public bool DeleteUser(int userId)
+        {
+            return _userRepository.DeleteUser(userId);
+        }
+
         public List<User> GetAllUsers()
         {
             return _userRepository.GetUsers();
+        }
+
+        public List<User> GetUserByKeyWord(string keyword)
+        {
+            return _userRepository.GetUserByKeyWord(keyword);
         }
 
         public User? Login(string email, string password)
@@ -37,6 +52,9 @@ namespace Services
             return true;
         }
 
-       
+        public bool UpdateUser(User user)
+        {
+            return _userRepository.UpdateUser(user);
+        }
     }
 }

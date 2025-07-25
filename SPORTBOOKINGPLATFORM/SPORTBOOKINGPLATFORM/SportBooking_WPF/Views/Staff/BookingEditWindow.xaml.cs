@@ -35,6 +35,7 @@ namespace SportBooking_WPF.Views.Staff
             BookingResult = isEditMode ? booking! : new BusinessObjects.Booking();
 
             LoadCourts();
+            LoadUser();
 
             if (isEditMode)
                 LoadBookingDetails();
@@ -47,10 +48,16 @@ namespace SportBooking_WPF.Views.Staff
             cbCourt.DisplayMemberPath = "CourtName";
             cbCourt.SelectedValuePath = "CourtId";
         }
-
+        private void LoadUser()
+        {
+            var users = _userService.GetAllUsers();
+            cbUser.ItemsSource = users;
+            cbUser.DisplayMemberPath = "FullName";
+            cbUser.SelectedValuePath = "UserId";
+        }
         private void LoadBookingDetails()
         {
-            txtCus.Text = BookingResult.User?.FullName ?? "Guest";
+            cbUser.SelectedValue = BookingResult.UserId;
             cbCourt.SelectedValue = BookingResult.CourtId;
             dpBookingDate.SelectedDate = BookingResult.BookingDate.ToDateTime(new TimeOnly(0, 0, 0));
             txtStartTime.Text = BookingResult.StartTime.ToString("hh\\:mm");
@@ -61,66 +68,43 @@ namespace SportBooking_WPF.Views.Staff
         {
             try
             {
-                if (cbCourt.SelectedValue == null || dpBookingDate.SelectedDate == null)
+                if (cbCourt.SelectedValue == null || dpBookingDate.SelectedDate == null || cbUser.SelectedValue == null)
                 {
-                    MessageBox.Show("All fields must be required.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    MessageBox.Show("All fields must be filled.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
+
                 if (!TimeOnly.TryParse(txtStartTime.Text, out var startTime) ||
                     !TimeOnly.TryParse(txtEndTime.Text, out var endTime))
                 {
                     MessageBox.Show("Invalid time format. Please use HH:mm format.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
+
                 if (startTime >= endTime)
                 {
                     MessageBox.Show("Start time must be earlier than end time.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
+
+                BookingResult.UserId = (int)cbUser.SelectedValue;
                 BookingResult.CourtId = (int)cbCourt.SelectedValue;
                 BookingResult.BookingDate = DateOnly.FromDateTime(dpBookingDate.SelectedDate.Value);
                 BookingResult.StartTime = startTime;
                 BookingResult.EndTime = endTime;
+
                 if (!isEditMode)
                 {
-                    string name = txtCus.Text.Trim();
-                    if (string.IsNullOrEmpty(name))
-                    {
-                        MessageBox.Show("Customer name is required.", "Validation Error",
-                            MessageBoxButton.OK, MessageBoxImage.Warning);
-                        return;
-                    }
-                    if(chkIsRegisteredUser.IsChecked == true)
-                    {
-                        var matchedUser = _userService.GetAllUsers()
-                        .FirstOrDefault(u => u.FullName.Equals(name, StringComparison.OrdinalIgnoreCase));
-                        if (matchedUser == null)
-                        {
-                            MessageBox.Show("No matching user found. Please check the name or uncheck the account checkbox.",
-                                "User Not Found", MessageBoxButton.OK, MessageBoxImage.Warning);
-                            return;
-                        }
-
-                        BookingResult.UserId = matchedUser.UserId;
-                        BookingResult.GuestName = null;
-                    }
-                    else
-                    {
-                        BookingResult.GuestName = name;
-                        BookingResult.UserId = null; 
-                    }
-                    
                     BookingResult.Status = "Confirmed";
                     BookingResult.CreatedAt = DateTime.Now;
-
                 }
+
                 DialogResult = true;
                 Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred while saving the booking: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
+                MessageBox.Show($"Error saving booking: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

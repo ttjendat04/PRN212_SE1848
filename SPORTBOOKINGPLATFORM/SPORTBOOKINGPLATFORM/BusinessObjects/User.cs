@@ -20,6 +20,7 @@ public partial class User
     public DateTime? CreatedAt { get; set; }
 
     public string? Address { get; set; }
+    public string Status { get; set; } = "Active";
 
     public DateOnly? Dob { get; set; }
 
