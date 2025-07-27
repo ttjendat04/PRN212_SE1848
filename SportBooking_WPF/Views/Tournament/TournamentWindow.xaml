@@ -11,26 +11,42 @@
         WindowStartupLocation="CenterScreen"
         Background="#2E8B57">
 
-    <Grid Margin="10,10,10,-6">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <DockPanel Margin="10" LastChildFill="True">
 
         <!-- Tiêu đề -->
         <TextBlock Text="Danh sách Giải đấu"
                    FontSize="28"
                    FontWeight="Bold"
                    Foreground="White"
-                   Margin="0 0 0 10"/>
+                   Margin="0 0 0 10"
+                   HorizontalAlignment="Center"
+                   DockPanel.Dock="Top"/>
+
+        <!-- Các nút chức năng -->
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0 10"
+                    DockPanel.Dock="Bottom">
+            <Button x:Name="btnAdd" Content="Thêm" Width="80" Margin="5" Click="btnAdd_Click"
+                    Background="#3CB371" Foreground="White" FontWeight="Bold" BorderBrush="#2E8B57"/>
+            <Button x:Name="btnEdit" Content="Sửa" Width="80" Margin="5" Click="btnEdit_Click"
+                    Background="#FFA500" Foreground="White" FontWeight="Bold" BorderBrush="#FF8C00"/>
+            <Button x:Name="btnDelete" Content="Xoá" Width="80" Margin="5" Click="btnDelete_Click"
+                    Background="#CD5C5C" Foreground="White" FontWeight="Bold" BorderBrush="#B22222"/>
+            <Button x:Name="btnRegister" Content="Đăng ký" Width="100" Margin="5" Click="btnRegister_Click"
+                    Background="#1E90FF" Foreground="White" FontWeight="Bold" BorderBrush="#104E8B"/>
+            <Button x:Name="btnApprove" Content="Duyệt ĐK" Width="105" Margin="5" Click="btnApprove_Click"
+                    Background="#6A5ACD" Foreground="White" FontWeight="Bold" BorderBrush="#483D8B"/>
+            <Button x:Name="btnViewMyRegistrations" Content="Đơn đăng ký" Width="130" Margin="5" Click="btnViewMyRegistrations_Click"
+                    Background="#4682B4" Foreground="White" FontWeight="Bold" BorderBrush="#1C3F77"/>
+        </StackPanel>
 
         <!-- Bảng dữ liệu -->
         <DataGrid x:Name="dgTournaments"
-                  Grid.Row="1"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
                   SelectionMode="Single"
-                  Margin="0 10 0 60"
+                  Margin="0 10 0 0"
                   Background="White"
                   Foreground="Black"
                   AlternatingRowBackground="#F5FFF5"
@@ -51,37 +67,17 @@
                 <DataGridTextColumn Header="ID" Binding="{Binding TournamentId}" Width="50"/>
                 <DataGridTextColumn Header="Tên giải" Binding="{Binding Title}" Width="200"/>
                 <DataGridTextColumn Header="Môn" Binding="{Binding Sport.SportName}" Width="100"/>
-                <DataGridTextColumn Header="Mô tả" Binding="{Binding Description}" Width="200"/>
+                <DataGridTextColumn Header="Mô tả" Binding="{Binding Description}" Width="250"/>
                 <DataGridTextColumn Header="Người tổ chức" Binding="{Binding Organizer.FullName}" Width="150"/>
                 <DataGridTextColumn Header="Bắt đầu" Binding="{Binding StartDate, StringFormat='{}{0:dd/MM/yyyy}'}" Width="100"/>
                 <DataGridTextColumn Header="Kết thúc" Binding="{Binding EndDate, StringFormat='{}{0:dd/MM/yyyy}'}" Width="100"/>
                 <DataGridTextColumn Header="Hạn đăng ký" Binding="{Binding RegistrationDeadline, StringFormat='{}{0:dd/MM/yyyy}'}" Width="100"/>
-                <DataGridTextColumn Header="Địa điểm" Binding="{Binding Location}" Width="120"/>
-                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="80"/>
+                <DataGridTextColumn Header="Địa điểm" Binding="{Binding Location}" Width="150"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="100"/>
                 <DataGridTextColumn Header="SL tối đa" Binding="{Binding MaxParticipants}" Width="80"/>
                 <DataGridCheckBoxColumn Header="Theo đội" Binding="{Binding IsTeamBased}" Width="70"/>
                 <DataGridTextColumn Header="Luật lệ" Binding="{Binding Rules}" Width="150"/>
             </DataGrid.Columns>
         </DataGrid>
-
-        <!-- Các nút chức năng -->
-        <StackPanel Orientation="Horizontal"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Bottom"
-                    Grid.Row="1"
-                    Margin="0 0 0 10">
-            <Button x:Name="btnAdd" Content="Thêm" Width="80" Margin="5" Click="btnAdd_Click"
-                    Background="#3CB371" Foreground="White" FontWeight="Bold" BorderBrush="#2E8B57"/>
-            <Button x:Name="btnEdit" Content="Sửa" Width="80" Margin="5" Click="btnEdit_Click"
-                    Background="#FFA500" Foreground="White" FontWeight="Bold" BorderBrush="#FF8C00"/>
-            <Button x:Name="btnDelete" Content="Xoá" Width="80" Margin="5" Click="btnDelete_Click"
-                    Background="#CD5C5C" Foreground="White" FontWeight="Bold" BorderBrush="#B22222"/>
-            <Button x:Name="btnRegister" Content="Đăng ký" Width="100" Margin="5" Click="btnRegister_Click"
-                    Background="#1E90FF" Foreground="White" FontWeight="Bold" BorderBrush="#104E8B"/>
-            <Button x:Name="btnApprove" Content="Duyệt ĐK" Width="105" Margin="5" Click="btnApprove_Click"
-                    Background="#6A5ACD" Foreground="White" FontWeight="Bold" BorderBrush="#483D8B"/>
-            <Button x:Name="btnViewMyRegistrations" Content="Đơn đăng ký" Width="130" Margin="5" Click="btnViewMyRegistrations_Click"
-                    Background="#4682B4" Foreground="White" FontWeight="Bold" BorderBrush="#1C3F77"/>     
-        </StackPanel>
-    </Grid>
+    </DockPanel>
 </Window>

@@ -15,9 +15,10 @@ namespace DataAccessLayer
         {
 
             // Kiểm tra đã đăng ký chưa
-            if (context.TournamentRegistrations
-                .Any(r => r.UserId == userId && r.TournamentId == tournamentId))
-                return false;
+            if (context.TournamentRegistrations.Any(r => r.UserId == userId
+                       && r.TournamentId == tournamentId
+                       && r.Status != "Đã hủy"))
+                            return false;
 
             var tournament = context.Tournaments.FirstOrDefault(t => t.TournamentId == tournamentId);
             if (tournament == null)

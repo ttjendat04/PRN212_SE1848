@@ -7,56 +7,66 @@
         WindowStartupLocation="CenterScreen"
         Background="#F0FFF0">
 
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <DockPanel LastChildFill="True" Margin="20">
 
+        <!-- Header -->
         <TextBlock Text="Đăng ký giải đấu"
                    FontSize="20"
                    FontWeight="Bold"
+                   Foreground="#2E8B57"
                    HorizontalAlignment="Center"
-                   Margin="0 0 0 20"/>
+                   Margin="0 0 0 20"
+                   DockPanel.Dock="Top"/>
 
-        <StackPanel Grid.Row="1">
-
-            <!-- Hiển thị tên giải đấu -->
-            <TextBlock Text="Tên giải đấu:" FontWeight="Bold"/>
-            <TextBox x:Name="txtTournamentTitle" IsReadOnly="True" Height="30" Margin="0 5 0 15"/>
-
-            <!-- Hiển thị ngày đăng ký -->
-            <TextBlock Text="Ngày đăng ký:" FontWeight="Bold"/>
-            <TextBox x:Name="txtRegisterDate" IsReadOnly="True" Height="30" Margin="0 5 0 15"/>
-
-            <!-- Tên đội (nếu có) -->
-            <TextBlock Text="Tên đội (tuỳ chọn):" FontWeight="Bold"/>
-            <TextBox x:Name="txtTeamName" Height="30" Margin="0 5 0 15"/>
-
-            <!-- Số lượng thành viên (tuỳ chọn) -->
-            <TextBlock Text="Số thành viên (tuỳ chọn):" FontWeight="Bold"/>
-            <TextBox x:Name="txtMembers" Height="30" Margin="0 5 0 15"/>
-
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 20 0 0">
-                <Button Content="Đăng ký"
-                        Width="100"
-                        Height="35"
-                        Background="#3CB371"
-                        Foreground="White"
-                        FontWeight="Bold"
-                        Click="btnRegister_Click"
-                        Margin="5"/>
-
-                <Button Content="Thoát"
-                        Width="100"
-                        Height="35"
-                        Background="#CD5C5C"
-                        Foreground="White"
-                        FontWeight="Bold"
-                        Click="btnExit_Click"
-                        Margin="5"/>    
-            </StackPanel>
-
+        <!-- Footer: Buttons -->
+        <StackPanel Orientation="Horizontal"
+                    DockPanel.Dock="Bottom"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,0">
+            <Button Content="✅ Đăng ký"
+                    Width="100"
+                    Height="35"
+                    Background="#3CB371"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="btnRegister_Click"
+                    Margin="5"/>
+            <Button Content="❌ Thoát"
+                    Width="100"
+                    Height="35"
+                    Background="#CD5C5C"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="btnExit_Click"
+                    Margin="5"/>
         </StackPanel>
-    </Grid>
+
+        <!-- Main content -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="Tên giải đấu:" FontWeight="Bold"/>
+                <TextBox x:Name="txtTournamentTitle"
+                         IsReadOnly="True"
+                         Height="30"
+                         Margin="0 5 0 15"/>
+
+                <TextBlock Text="Ngày đăng ký:" FontWeight="Bold"/>
+                <TextBox x:Name="txtRegisterDate"
+                         IsReadOnly="True"
+                         Height="30"
+                         Margin="0 5 0 15"/>
+
+                <TextBlock Text="Tên đội (tuỳ chọn):" FontWeight="Bold"/>
+                <TextBox x:Name="txtTeamName"
+                         Height="30"
+                         Margin="0 5 0 15"/>
+
+                <TextBlock Text="Số thành viên (tuỳ chọn):" FontWeight="Bold"/>
+                <TextBox x:Name="txtMembers"
+                         Height="30"
+                         Margin="0 5 0 15"/>
+            </StackPanel>
+        </ScrollViewer>
+    </DockPanel>
 </Window>
