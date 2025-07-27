@@ -137,11 +137,12 @@
                         return;
                     }
 
-                    if (regDeadline > startDate)
+                    if (regDeadline >= startDate)
                     {
-                        MessageBox.Show("Hạn đăng ký phải trước hoặc bằng ngày bắt đầu.");
+                        MessageBox.Show("Hạn đăng ký phải trước ngày bắt đầu.");
                         return;
                     }
+
                 }
 
                 // Tiếp tục lưu nếu hợp lệ

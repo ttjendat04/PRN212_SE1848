@@ -22,15 +22,13 @@ namespace SportBooking_WPF.Views.Tournament
     /// </summary>
     public partial class TournamentWindow : Window
     {
-        ITournamentService tournamentService = new TournamentService();
-        BusinessObjects.User _currentUser;
+        private readonly ITournamentService tournamentService = new TournamentService();
+        private readonly BusinessObjects.User _currentUser;
 
         public TournamentWindow(BusinessObjects.User currentUser)
         {
             InitializeComponent();
-
             _currentUser = currentUser;
-
             Loaded += TournamentWindow_Loaded;
         }
 
@@ -42,18 +40,33 @@ namespace SportBooking_WPF.Views.Tournament
 
         private void LoadTournaments()
         {
-            List<BusinessObjects.Tournament> tournaments = tournamentService.GetAllTournaments();
+            if (tournamentService.UpdateTournamentStatuses())
+            {
+                MessageBox.Show("Đã cập nhật trạng thái các giải đấu.");
+            }
+            var tournaments = tournamentService.GetAllTournaments();
             dgTournaments.ItemsSource = tournaments;
         }
 
         private void ApplyRolePermissions()
         {
-            bool isManagerOrAdmin = _currentUser.RoleId == 3 || _currentUser.RoleId == 4;
+            bool isAdmin = _currentUser.RoleId == 4;
+            bool isStaff = _currentUser.RoleId == 3;
+            bool isManager = _currentUser.RoleId == 2;
+            bool isUser = _currentUser.RoleId == 1;
 
-           btnAdd.Visibility = isManagerOrAdmin ? Visibility.Visible : Visibility.Collapsed;
-           btnEdit.Visibility = isManagerOrAdmin ? Visibility.Visible : Visibility.Collapsed;
-           btnDelete.Visibility = isManagerOrAdmin ? Visibility.Visible : Visibility.Collapsed;
+            // Staff & Admin => Toàn quyền chỉnh sửa
+            btnAdd.Visibility = (isStaff || isAdmin) ? Visibility.Visible : Visibility.Collapsed;
+            btnEdit.Visibility = (isStaff || isAdmin) ? Visibility.Visible : Visibility.Collapsed;
+            btnDelete.Visibility = (isStaff || isAdmin) ? Visibility.Visible : Visibility.Collapsed;
+
+            // Manager & Staff & Admin => Được quyền duyệt đăng ký
+            btnApprove.Visibility = (isManager || isStaff || isAdmin) ? Visibility.Visible : Visibility.Collapsed;
+
+            // Chỉ User được phép đăng ký giải
+            btnRegister.Visibility = isUser ? Visibility.Visible : Visibility.Collapsed;
         }
+
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
@@ -105,6 +118,36 @@ namespace SportBooking_WPF.Views.Tournament
                 }
             }
         }
+
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            if (dgTournaments.SelectedItem is not BusinessObjects.Tournament selected)
+            {
+                MessageBox.Show("Vui lòng chọn một giải đấu để đăng ký.");
+                return;
+            }
+
+            var registerWindow = new TournamentRegisterWindow(_currentUser, selected.TournamentId);
+            registerWindow.ShowDialog();
+        }
+
+        private void btnApprove_Click(object sender, RoutedEventArgs e)
+        {
+            if (dgTournaments.SelectedItem is not BusinessObjects.Tournament selected)
+            {
+                MessageBox.Show("Vui lòng chọn một giải đấu để duyệt đăng ký.");
+                return;
+            }
+
+            var approvalWindow = new RegistrationApprovalWindow(selected.TournamentId);
+            approvalWindow.ShowDialog();
+        }
+        private void btnViewMyRegistrations_Click(object sender, RoutedEventArgs e)
+        {
+            var viewWindow = new ViewRegistrationWindow(_currentUser);
+            viewWindow.ShowDialog();
+        }
+
     }
 }
     

@@ -36,5 +36,9 @@ namespace Services
         {
             return tournamentRepository.DeleteTournament(id);
         }
+        public bool UpdateTournamentStatuses()
+        {
+            return tournamentRepository.UpdateTournamentStatuses();
+        }
     }
 }

@@ -1,0 +1,51 @@
+﻿<Window x:Class="SportBooking_WPF.Views.Tournament.ViewRegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Xem đơn đăng ký"
+        Height="450"
+        Width="854"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+            <TextBlock Text="Giải đấu:" Margin="0 0 5 0" VerticalAlignment="Center"/>
+            <ComboBox x:Name="cbTournaments"
+                      Visibility="Collapsed"
+                      DisplayMemberPath="Title"
+                      SelectionChanged="cbTournaments_SelectionChanged"
+                      Margin="0 10 0 10"/>  
+        </StackPanel>
+
+        <DataGrid x:Name="dgMyRegistrations"
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  AlternatingRowBackground="#FAFAFA"
+                  HeadersVisibility="Column">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding RegistrationId}" Width="50"/>
+                <DataGridTextColumn Header="Người đăng ký" Binding="{Binding User.FullName}" Width="150"/>
+                <DataGridTextColumn Header="Tên giải" Binding="{Binding Tournament.Title}" Width="150"/>
+                <DataGridTextColumn Header="Ngày đăng ký" Binding="{Binding RegisterDate, StringFormat='{}{0:dd/MM/yyyy}'}" Width="120"/>
+                <DataGridTextColumn Header="Tên đội" Binding="{Binding TeamName}" Width="150"/>
+                <DataGridTextColumn Header="Số thành viên" Binding="{Binding NumberOfMembers}" Width="100"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Hủy đăng ký"
+            x:Name="btnCancelRegistration"
+            Click="btnCancelRegistration_Click"
+            Width="120"
+            Height="30"
+            HorizontalAlignment="Right"
+            Margin="0 10 0 0"/>
+
+    </Grid>
+</Window>

@@ -79,6 +79,38 @@ namespace DataAccessLayer
                 return false;
             }
         }
+        public bool UpdateTournamentStatuses()
+        {
+            var tournaments = GetAllTournaments();
+            var today = DateOnly.FromDateTime(DateTime.Today);
+            bool hasChanges = false;
+
+            foreach (var t in tournaments)
+            {
+                var newStatus = GetTournamentStatus(t, today);
+                if (t.Status != newStatus)
+                {
+                    t.Status = newStatus;
+                    UpdateTournament(t); // Cập nhật vào DB
+                    hasChanges = true;
+                }
+            }
+
+            return hasChanges;
+        }
+        private string GetTournamentStatus(BusinessObjects.Tournament t, DateOnly today)
+        {
+            if (t.RegistrationDeadline > today)
+                return "Mở đăng ký";
+            else if (t.StartDate > today)
+                return "Đóng đăng ký";
+            else if (t.StartDate <= today && t.EndDate >= today)
+                return "Đang diễn ra";
+            else if (t.EndDate < today)
+                return "Hoàn thành";
+            else
+                return "Không rõ";
+        }
     }
 }
 

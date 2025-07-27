@@ -5,14 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repositories
+namespace Services
 {
-    public interface ITournamentRepository
+    public interface ITournamentService
     {
         public List<Tournament> GetAllTournaments();
         public Tournament GetTournamentById(int id);
         public bool AddTournament(Tournament tournament);
         public bool UpdateTournament(Tournament tournament);
         public bool DeleteTournament(int id);
+        public bool UpdateTournamentStatuses();
+
     }
 }

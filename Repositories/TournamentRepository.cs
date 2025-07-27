@@ -36,5 +36,10 @@ namespace Repositories
         {
             return dao.DeleteTournament(id);
         }
+        public bool UpdateTournamentStatuses()
+        {
+            return dao.UpdateTournamentStatuses();
+        }
+
     }
 }
