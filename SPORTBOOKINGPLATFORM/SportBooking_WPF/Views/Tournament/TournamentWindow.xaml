@@ -5,7 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SportBooking_WPF.Views.Tournament"
         mc:Ignorable="d"
-        Title="TournamentWindow" Height="450" Width="1362" WindowStartupLocation="CenterScreen">
+        Title="TournamentWindow"
+        Height="450"
+        Width="1362"
+        WindowStartupLocation="CenterScreen"
+        Background="#2E8B57">
+
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -13,11 +18,38 @@
         </Grid.RowDefinitions>
 
         <!-- Tiêu đề -->
-        <TextBlock Text="Danh sách Giải đấu" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+        <TextBlock Text="Danh sách Giải đấu"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="White"
+                   Margin="0 0 0 10"/>
 
         <!-- Danh sách giải đấu -->
-        <DataGrid x:Name="dgTournaments" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True"
-                  SelectionMode="Single" Margin="0 10 0 50">
+        <DataGrid x:Name="dgTournaments"
+                  Grid.Row="1"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionMode="Single"
+                  Margin="0 10 0 50"
+                  Background="White"
+                  Foreground="Black"
+                  AlternatingRowBackground="#F5FFF5"
+                  RowBackground="White"
+                  GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#CCCCCC">
+
+            <!-- Style cho Header -->
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#3CB371"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="Padding" Value="5"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <!-- Cột -->
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding TournamentId}" Width="50"/>
                 <DataGridTextColumn Header="Tên giải" Binding="{Binding Title}" Width="200"/>
@@ -36,11 +68,44 @@
         </DataGrid>
 
         <!-- Các nút chức năng -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom"
-                    Margin="0 0 0 10" Grid.Row="1">
-            <Button x:Name="btnAdd" Content="Thêm" Width="80" Margin="5" Click="btnAdd_Click" Visibility="Collapsed" d:Visibility="Visible"/>
-            <Button x:Name="btnEdit" Content="Sửa" Width="80" Margin="5" Click="btnEdit_Click" Visibility="Collapsed" d:Visibility="Visible"/>
-            <Button x:Name="btnDelete" Content="Xoá" Width="80" Margin="5" Click="btnDelete_Click" Visibility="Collapsed" d:Visibility="Visible"/>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="0 0 0 10"
+                    Grid.Row="1">
+            <Button x:Name="btnAdd"
+                    Content="Thêm"
+                    Width="80"
+                    Margin="5"
+                    Click="btnAdd_Click"
+                    Background="#3CB371"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    BorderBrush="#2E8B57"
+                    Visibility="Collapsed"
+                    d:Visibility="Visible"/>
+            <Button x:Name="btnEdit"
+                    Content="Sửa"
+                    Width="80"
+                    Margin="5"
+                    Click="btnEdit_Click"
+                    Background="#FFA500"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    BorderBrush="#FF8C00"
+                    Visibility="Collapsed"
+                    d:Visibility="Visible"/>
+            <Button x:Name="btnDelete"
+                    Content="Xoá"
+                    Width="80"
+                    Margin="5"
+                    Click="btnDelete_Click"
+                    Background="#CD5C5C"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    BorderBrush="#B22222"
+                    Visibility="Collapsed"
+                    d:Visibility="Visible"/>
         </StackPanel>
     </Grid>
 </Window>

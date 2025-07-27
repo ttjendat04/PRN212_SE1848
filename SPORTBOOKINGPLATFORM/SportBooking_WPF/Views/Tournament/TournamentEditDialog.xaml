@@ -5,45 +5,84 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SportBooking_WPF.Views.Tournament"
         mc:Ignorable="d"
-        Title="TournamentEditDialog" Height="662" Width="500" WindowStartupLocation="CenterScreen">
+        Title="TournamentEditDialog"
+        Height="886"
+        Width="500"
+        WindowStartupLocation="CenterScreen"
+        Background="#F0F4F8">
+
+    <Window.Resources>
+        <!-- Label style -->
+        <Style x:Key="LabelStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#2E2E2E"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+        </Style>
+
+        <!-- Input controls style -->
+        <Style x:Key="InputStyle" TargetType="Control">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="BorderBrush" Value="#CCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#333"/>
+        </Style>
+    </Window.Resources>
+
     <ScrollViewer>
         <StackPanel Margin="20">
-            <TextBlock Text="Tên giải đấu:"/>
-            <TextBox x:Name="txtTitle"/>
+            <TextBlock Text="Tên giải đấu:" Style="{StaticResource LabelStyle}"/>
+            <TextBox x:Name="txtTitle" Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Môn thể thao:" Margin="0,10,0,0"/>
-            <ComboBox x:Name="cbSports" DisplayMemberPath="SportName" SelectedValuePath="SportId"/>
+            <TextBlock Text="Môn thể thao:" Style="{StaticResource LabelStyle}"/>
+            <ComboBox x:Name="cbSports"
+                      DisplayMemberPath="SportName"
+                      SelectedValuePath="SportId"
+                      Style="{StaticResource InputStyle}"/>
 
+            <TextBlock Text="Người tổ chức:" Style="{StaticResource LabelStyle}" x:Name="lblOrganizer"/>
+            <ComboBox x:Name="cbOrganizers"
+                      DisplayMemberPath="FullName"
+                      SelectedValuePath="UserId"
+                      Visibility="Collapsed"
+                      Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Người tổ chức:" Margin="0,10,0,0" x:Name="lblOrganizer"/>
-            <ComboBox x:Name="cbOrganizers" DisplayMemberPath="FullName" SelectedValuePath="UserId" Visibility="Collapsed"/>
+            <TextBlock Text="Mô tả:" Style="{StaticResource LabelStyle}"/>
+            <TextBox x:Name="txtDescription"
+                     Height="60"
+                     TextWrapping="Wrap"
+                     Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Mô tả:" Margin="0,10,0,0"/>
-            <TextBox x:Name="txtDescription" Height="60" TextWrapping="Wrap"/>
+            <TextBlock Text="Thời gian bắt đầu:" Style="{StaticResource LabelStyle}"/>
+            <DatePicker x:Name="dpStartDate" Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Thời gian bắt đầu:" Margin="0,10,0,0"/>
-            <DatePicker x:Name="dpStartDate"/>
+            <TextBlock Text="Thời gian kết thúc:" Style="{StaticResource LabelStyle}"/>
+            <DatePicker x:Name="dpEndDate" Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Thời gian kết thúc:" Margin="0,10,0,0"/>
-            <DatePicker x:Name="dpEndDate"/>
+            <TextBlock Text="Hạn đăng ký:" Style="{StaticResource LabelStyle}"/>
+            <DatePicker x:Name="dpRegistrationDeadline" Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Hạn đăng ký:" Margin="0,10,0,0"/>
-            <DatePicker x:Name="dpRegistrationDeadline"/>
+            <TextBlock Text="Địa điểm tổ chức:" Style="{StaticResource LabelStyle}"/>
+            <TextBox x:Name="txtLocation" Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Địa điểm tổ chức:" Margin="0,10,0,0"/>
-            <TextBox x:Name="txtLocation"/>
-
-            <TextBlock Text="Loại giải đấu:" Margin="0,10,0,0"/>
-            <ComboBox x:Name="cbTeamType" SelectedValuePath="Tag">
+            <TextBlock Text="Loại giải đấu:" Style="{StaticResource LabelStyle}"/>
+            <ComboBox x:Name="cbTeamType"
+                      SelectedValuePath="Tag"
+                      Style="{StaticResource InputStyle}">
                 <ComboBoxItem Content="Giải đấu đội" Tag="true"/>
                 <ComboBoxItem Content="Giải đấu cá nhân" Tag="false"/>
             </ComboBox>
 
-            <TextBlock x:Name="lblMaxParticipants" Text="Số người tối đa:" Margin="0,10,0,0"/>
-            <TextBox x:Name="txtMaxParticipants"/>
+            <TextBlock x:Name="lblMaxParticipants" Text="Số người tối đa:" Style="{StaticResource LabelStyle}"/>
+            <TextBox x:Name="txtMaxParticipants" Style="{StaticResource InputStyle}"/>
 
-            <TextBlock Text="Trạng thái:" Margin="0,10,0,0"/>
-            <ComboBox x:Name="cbStatus" SelectedValuePath="Tag">
+            <TextBlock Text="Trạng thái:" Style="{StaticResource LabelStyle}"/>
+            <ComboBox x:Name="cbStatus"
+                      SelectedValuePath="Tag"
+                      Style="{StaticResource InputStyle}">
                 <ComboBoxItem Content="Mở đăng ký" Tag="Mở đăng ký"/>
                 <ComboBoxItem Content="Đóng đăng ký" Tag="Đóng đăng ký"/>
                 <ComboBoxItem Content="Đang diễn ra" Tag="Đang diễn ra"/>
@@ -51,12 +90,17 @@
                 <ComboBoxItem Content="Huỷ" Tag="Huỷ"/>
             </ComboBox>
 
-            <TextBlock Text="Luật thi đấu:" Margin="0,10,0,0"/>
-            <TextBox x:Name="txtRules" Height="60" TextWrapping="Wrap"/>
+            <TextBlock Text="Luật thi đấu:" Style="{StaticResource LabelStyle}"/>
+            <TextBox x:Name="txtRules"
+                     Height="60"
+                     TextWrapping="Wrap"
+                     Style="{StaticResource InputStyle}"/>
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                <Button Content="Lưu" Width="80" Margin="5" Click="BtnSave_Click"/>
-                <Button Content="Huỷ" Width="80" Margin="5" Click="BtnCancel_Click"/>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        Margin="0,20,0,0">
+                <Button Content="Lưu" Width="80" Margin="10,0" Click="BtnSave_Click"/>
+                <Button Content="Huỷ" Width="80" Margin="10,0" Click="BtnCancel_Click"/>
             </StackPanel>
         </StackPanel>
     </ScrollViewer>
