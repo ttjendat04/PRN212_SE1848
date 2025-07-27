@@ -1,0 +1,54 @@
+﻿<Window x:Class="SportBooking_WPF.Views.Manager.CourtManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportBooking_WPF.Views.Manager"
+        mc:Ignorable="d"
+         Title="Quản lý sân" Height="500" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Label Content="Tên sân:" Width="70"/>
+            <TextBox x:Name="txtCourtName" Width="150" Margin="5,0"/>
+
+            <Label Content="Địa điểm:" Width="70" Margin="20,0,0,0"/>
+            <TextBox x:Name="txtLocation" Width="150" Margin="5,0"/>
+
+            <Label Content="Giá/giờ:" Width="70" Margin="20,0,0,0"/>
+            <TextBox x:Name="txtPrice" Width="100" Margin="5,0"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Label Content="SportID:" Width="70"/>
+            <TextBox x:Name="txtSportId" Width="100" Margin="5,0"/>
+
+            <Label Content="Trạng thái:" Width="70" Margin="20,0,0,0"/>
+            <ComboBox x:Name="cbStatus" Width="120" Margin="5,0" 
+                      DisplayMemberPath="StatusName" 
+                      SelectedValuePath="StatusId"/>
+
+            <Button x:Name="btnAdd" Content="Thêm" Width="80" Margin="40,0,0,0" Click="btnAdd_Click"/>
+            <Button x:Name="btnUpdate" Content="Sửa" Width="80" Margin="10,0" Click="btnUpdate_Click"/>
+            <Button x:Name="btnDelete" Content="Xóa" Width="80" Margin="10,0" Click="btnDelete_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="dgCourts" Grid.Row="2" Margin="0,10,0,0"
+                  AutoGenerateColumns="False" SelectionMode="Single"
+                  SelectionChanged="dgCourts_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding CourtId}" Width="50"/>
+                <DataGridTextColumn Header="Tên sân" Binding="{Binding CourtName}" Width="150"/>
+                <DataGridTextColumn Header="Địa điểm" Binding="{Binding Location}" Width="150"/>
+                <DataGridTextColumn Header="Giá/giờ" Binding="{Binding PricePerHour, StringFormat='{}{0:N0} VNĐ'}" Width="100"/>
+                <DataGridTextColumn Header="SportID" Binding="{Binding SportId}" Width="80"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="120"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
