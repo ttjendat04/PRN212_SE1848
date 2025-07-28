@@ -25,5 +25,10 @@ namespace SportBooking_WPF.Views.Manager
             RevenueReportWindow window = new RevenueReportWindow();
             window.ShowDialog(); 
         }
+
+        private void BtnBookingManagement_Click(object sender, RoutedEventArgs e)
+        {
+            //lay window booking 
+        }
     }
 }
