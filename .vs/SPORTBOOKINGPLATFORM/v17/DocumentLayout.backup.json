@@ -1,93 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\",
+  "WorkspaceRootPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\courtmanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\courtmanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\revenuereportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\revenuereportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\courtmanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\courtmanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\businessobjects\\court.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\court.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|solutionrelative:services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\services\\courtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|solutionrelative:services\\courtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\services\\icourtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|solutionrelative:services\\icourtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\repositories\\courtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\courtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\businessobjects\\courtstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\courtstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\businessobjects\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\repositories\\icourtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\icourtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|solutionrelative:services\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\welcomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\welcomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\welcomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\welcomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7388334-7228-4AB5-BBF0-60CD568ADA1A}|Services\\Services.csproj|solutionrelative:services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\usermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\usermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\revenuereportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\revenuereportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\piechartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\piechartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\piechartwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\piechartwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\usermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\businessobjects\\courtbookingstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\courtbookingstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{554F0E22-2B57-4457-B3A6-D109E5E53F4A}|Repositories\\Repositories.csproj|solutionrelative:repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\businessobjects\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B00666-4DA6-4118-9FC0-5C4958FCD463}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\sportbooking_wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\sportbooking_wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\usermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\usermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIIN\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\manager\\managerdashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\welcomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\welcomewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|e:\\swp\\sportbookingplatform\\sportbookingplatform\\sportbookingplatform\\sportbooking_wpf\\views\\user\\welcomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E3CF79F-9412-485D-97BF-771589972CB4}|SportBooking_WPF\\SportBooking_WPF.csproj|solutionrelative:sportbooking_wpf\\views\\user\\welcomewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -128,218 +125,257 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReportRepository.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\ReportRepository.cs",
+              "RelativeToolTip": "Repositories\\ReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:35:48.282Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CourtStatus.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\CourtStatus.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\CourtStatus.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\CourtStatus.cs",
-              "RelativeToolTip": "BusinessObjects\\CourtStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "CourtBookingStatistic.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\CourtBookingStatistic.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\CourtBookingStatistic.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\CourtBookingStatistic.cs",
+              "RelativeToolTip": "BusinessObjects\\CourtBookingStatistic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T10:36:27.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Court.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\Court.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Court.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\Court.cs",
-              "RelativeToolTip": "BusinessObjects\\Court.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T10:36:03.686Z",
+              "WhenOpened": "2025-07-28T05:22:23.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Sport.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\Sport.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Sport.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\Sport.cs",
-              "RelativeToolTip": "BusinessObjects\\Sport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBookingRepository.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\IBookingRepository.cs",
+              "RelativeToolTip": "Repositories\\IBookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T10:35:35.571Z"
+              "WhenOpened": "2025-07-28T05:21:49.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\Booking.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Booking.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\Booking.cs",
+              "RelativeToolTip": "BusinessObjects\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T10:30:18.115Z"
+              "WhenOpened": "2025-07-28T05:17:45.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RevenueReportWindow.xaml",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-28T03:51:42.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BookingRepository.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T05:17:06.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SportBooking_WPF",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\SportBooking_WPF.csproj",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\SportBooking_WPF.csproj",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\SportBooking_WPF.csproj",
+              "RelativeToolTip": "SportBooking_WPF\\SportBooking_WPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T05:07:17.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagerWindow.xaml",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-28T04:57:37.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PieChartWindow.xaml",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-28T04:37:27.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PieChartWindow.xaml.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml.cs",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\PieChartWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T04:35:16.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "Services\\BookingService.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\BookingService.cs",
+              "RelativeToolTip": "Services\\BookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T04:28:54.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\IBookingService.cs",
+              "RelativeDocumentMoniker": "Services\\IBookingService.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\IBookingService.cs",
+              "RelativeToolTip": "Services\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T04:27:55.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CourtManagementWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml.cs",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Title": "RevenueReportWindow.xaml.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml.cs",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\RevenueReportWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T09:33:59.195Z",
+              "WhenOpened": "2025-07-28T03:51:45.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManagerDashboardWindow.xaml.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T03:51:29.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManagerDashboardWindow.xaml",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
+              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
+              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-28T03:51:25.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CourtManagementWindow.xaml",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\CourtManagementWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-27T09:33:27.847Z",
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportService.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\ReportService.cs",
+              "RelativeToolTip": "Services\\ReportService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T03:30:34.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\IReportService.cs",
+              "RelativeDocumentMoniker": "Services\\IReportService.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\IReportService.cs",
+              "RelativeToolTip": "Services\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T03:29:48.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CourtService.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\CourtService.cs",
-              "RelativeDocumentMoniker": "Services\\CourtService.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\CourtService.cs",
-              "RelativeToolTip": "Services\\CourtService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCsAAAAFAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T09:32:34.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICourtService.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\ICourtService.cs",
-              "RelativeDocumentMoniker": "Services\\ICourtService.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\ICourtService.cs",
-              "RelativeToolTip": "Services\\ICourtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T09:32:20.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICourtRepository.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\ICourtRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICourtRepository.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\ICourtRepository.cs",
-              "RelativeToolTip": "Repositories\\ICourtRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T09:29:50.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CourtRepository.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\CourtRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CourtRepository.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\CourtRepository.cs",
-              "RelativeToolTip": "Repositories\\CourtRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T09:25:17.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManagerDashboardWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T09:05:45.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManagerDashboardWindow.xaml",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerDashboardWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-27T09:03:14.215Z"
+              "WhenOpened": "2025-07-27T10:30:18.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\User.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\User.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\User.cs",
-              "RelativeToolTip": "BusinessObjects\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T09:48:18.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManagerWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml.cs",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T09:36:17.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManagerWindow.xaml",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\Manager\\ManagerWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-26T09:36:09.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserMainWindow.xaml",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\UserMainWindow.xaml",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\User\\UserMainWindow.xaml",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\UserMainWindow.xaml",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\User\\UserMainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T17:03:50.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "WelcomeWindow.xaml",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml",
               "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml",
               "RelativeToolTip": "SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-22T06:56:15.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "WelcomeWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml.cs",
               "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml.cs",
               "RelativeToolTip": "SportBooking_WPF\\Views\\User\\WelcomeWindow.xaml.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAQwDoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,48 +384,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "RegisterWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\RegisterWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\User\\RegisterWindow.xaml.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\RegisterWindow.xaml.cs",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\User\\RegisterWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T15:49:04.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\User\\RegisterWindow.xaml",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\RegisterWindow.xaml",
-              "RelativeToolTip": "SportBooking_WPF\\Views\\User\\RegisterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T15:17:04.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "UserMainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\UserMainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\UserMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SportBooking_WPF\\Views\\User\\UserMainWindow.xaml.cs",
-              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\UserMainWindow.xaml.cs",
+              "ToolTip": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SportBooking_WPF\\Views\\User\\UserMainWindow.xaml.cs",
               "RelativeToolTip": "SportBooking_WPF\\Views\\User\\UserMainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:18:34.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIIN\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\ADMIIN\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
-              "ViewState": "AgIAABkAAAAAAAAAAAAMwCcAAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:37:19.922Z",
-              "EditorCaption": " [Read Only]"
+              "WhenOpened": "2025-07-22T14:18:34.122Z",
+              "EditorCaption": ""
             }
           ]
         }

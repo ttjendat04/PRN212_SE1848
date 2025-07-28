@@ -17,13 +17,13 @@ namespace SportBooking_WPF.Views.Manager
 
         private void BtnCourtManagement_Click(object sender, RoutedEventArgs e)
         {
-            var courtWindow = new CourtManagementWindow();
-            courtWindow.ShowDialog();
+            //lay cua trang Admin 
         }
 
         private void BtnRevenueReport_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Chức năng xem báo cáo doanh thu sẽ được bổ sung sau.", "Thông báo");
+            RevenueReportWindow window = new RevenueReportWindow();
+            window.ShowDialog(); 
         }
     }
 }

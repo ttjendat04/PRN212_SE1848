@@ -13,7 +13,8 @@
     <None Remove="Resources\football-field.png" />
   </ItemGroup>
 
-  <ItemGroup>
+
+	<ItemGroup>
     <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
@@ -37,6 +38,11 @@
     <Page Update="Views\User\WelcomeWindow.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-beta.800" />
+    <PackageReference Include="SkiaSharp.Views.WPF" Version="2.88.3" />
   </ItemGroup>
 
 </Project>

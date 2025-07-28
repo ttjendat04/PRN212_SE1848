@@ -3104,11 +3104,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\Services.csproj",
+      "projectUniqueName": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\Services.csproj",
+      "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
-      "outputPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\obj\\",
+      "outputPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3129,11 +3129,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj"
+            "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\Repositories.csproj": {
-              "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\Repositories.csproj"
+            "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\Repositories.csproj": {
+              "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\Repositories\\Repositories.csproj"
             }
           }
         }

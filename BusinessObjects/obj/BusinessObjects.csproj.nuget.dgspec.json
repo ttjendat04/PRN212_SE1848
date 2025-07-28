@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {}
+    "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {}
   },
   "projects": {
-    "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {
+    "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj",
+        "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
-        "outputPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\obj\\",
+        "outputPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

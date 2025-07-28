@@ -4999,11 +4999,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
-      "outputPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\DataAccessLayer\\obj\\",
+      "outputPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5024,8 +5024,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj"
+            "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "E:\\SWP\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\SPORTBOOKINGPLATFORM\\BusinessObjects\\BusinessObjects.csproj"
             }
           }
         }

@@ -14,10 +14,13 @@
     <Compile Update="Views\Court\CourtListWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Manager\CourtManagementWindow.xaml.cs">
+    <Compile Update="Views\Manager\ManagerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Manager\ManagerWindow.xaml.cs">
+    <Compile Update="Views\Manager\PieChartWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Manager\RevenueReportWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\User\WelcomeWindow.xaml.cs">
